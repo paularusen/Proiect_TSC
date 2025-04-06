@@ -124,8 +124,10 @@ Alimentare:
 	- Pinul de 3V3) este utilizat pentru alimentarea ESP32-C6 și a modulelor critice, iar alocarea separată pentru EPD 
 (EPD_3V3_C) asigură o tensiune stabilă pentru afișajul e-paper.
 
-
-OBSERVAȚII:
-- În fișierul X se gășește o diagramă bloc cu toate componentele proiectului și cum sunt ele legate.
+NOTE:
+- În fișierul Diagrama_bloc.png se gășește o diagramă bloc cu toate componentele proiectului și cum sunt ele legate.
 - În folderul Manufacturing se aflâ fișierul BOM al proiectului, Proiect_TSC_2025_NEW v41.csv, cu toate componentele 
 folosite.
+
+OBSERVAȚII:
+- Am modificat footprint-ul componentei J2, prin mutarea pad-urilor GND, VUSB și B8 cu câțiva mm spre stânga, pentru a corecta eroarea ”SMD Hole”.
